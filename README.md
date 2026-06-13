@@ -65,7 +65,7 @@ few lines.
   `findReviewsScrollContainer`) are updated. Open DevTools on a reviews panel
   to find the new attributes if that happens.
 
-## Testing locally (before publishing)
+## Testing locally
 
 1. Go to `chrome://extensions` (or `brave://extensions` in Brave).
 2. Turn on **Developer mode** (top right).
