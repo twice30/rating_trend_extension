@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        font-family: Roboto, Arial, sans-serif;
+        width: 230px;
+        padding: 12px;
+        color: #202124;
+        margin: 0;
+      }
+      h1 {
+        font-size: 14px;
+        margin: 0 0 8px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 0 0 10px;
+        color: #5f6368;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 6px;
+        background: #1a73e8;
+        color: #fff;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #1765cc;
+      }
+      #status {
+        font-size: 11px;
+        color: #5f6368;
+        margin-top: 8px;
+        min-height: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📈 Maps Rating Trend</h1>
+    <p>
+      Open a place on Google Maps and scroll its reviews into view, then
+      click the floating 📈 button on the page — or use the button below.
+    </p>
+    <button id="analyze">Analyze this page</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

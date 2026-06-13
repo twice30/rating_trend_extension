@@ -1,0 +1,168 @@
+.mrt-fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2147483000;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: #1a73e8;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease;
+}
+
+.mrt-fab:hover {
+  transform: scale(1.06);
+}
+
+.mrt-fab:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.mrt-panel {
+  position: fixed;
+  bottom: 84px;
+  right: 24px;
+  z-index: 2147483000;
+  width: 290px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  font-family: Roboto, Arial, sans-serif;
+  color: #202124;
+  padding: 12px 14px;
+}
+
+.mrt-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.mrt-close {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  color: #5f6368;
+  padding: 0 4px;
+}
+
+.mrt-chart {
+  display: block;
+}
+
+.mrt-chart-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mrt-axis-svg {
+  flex: none;
+  display: block;
+}
+
+.mrt-chart-scroll {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.mrt-grid {
+  stroke: #e8eaed;
+  stroke-width: 1;
+}
+
+.mrt-axis-label {
+  font-size: 8px;
+  fill: #5f6368;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.mrt-line {
+  fill: none;
+  stroke: #1a73e8;
+  stroke-width: 2;
+}
+
+.mrt-point {
+  fill: #1a73e8;
+}
+
+.mrt-msg,
+.mrt-caption {
+  font-size: 12px;
+  color: #5f6368;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+.mrt-scan-more {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 10px;
+  border: 1px solid #1a73e8;
+  border-radius: 14px;
+  background: #fff;
+  color: #1a73e8;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.mrt-scan-more:hover {
+  background: #e8f0fe;
+}
+
+#mrt-stop-btn {
+  border-color: #d93025;
+  color: #d93025;
+}
+
+#mrt-stop-btn:hover {
+  background: #fce8e6;
+}
+
+#mrt-stop-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.mrt-diagnostics {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #5f6368;
+}
+
+.mrt-diagnostics summary {
+  cursor: pointer;
+  color: #1a73e8;
+}
+
+.mrt-diag-line {
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.mrt-diag-pre {
+  margin-top: 6px;
+  padding: 6px;
+  background: #f1f3f4;
+  border-radius: 6px;
+  font-size: 10px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 140px;
+  overflow: auto;
+}
